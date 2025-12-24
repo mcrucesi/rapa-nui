@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ocean: #002b4e;
+  --color-island: #1a4731;
+  --color-moai: #a3a3a3;
+
+  --font-family-serif: "Playfair Display", serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #050505;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
